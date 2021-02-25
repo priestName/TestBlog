@@ -28,7 +28,7 @@ namespace BlogModels
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=47.106.232.163;Initial Catalog=Blog;User ID=sa;Password=000;MultipleActiveResultSets=True;Application Name=EntityFramework");
+                optionsBuilder.UseSqlServer("Data Source=192.168.1.1;Initial Catalog=Blog;User ID=sa;Password=000;MultipleActiveResultSets=True;Application Name=EntityFramework");
             }
         }
 
